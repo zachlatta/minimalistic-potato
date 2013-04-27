@@ -1,7 +1,7 @@
 Minimalistic Potato [![Build Status](http://zachlatta.com:8080/job/minimalistic-potato/badge/icon)](http://ci.zachlatta.com/job/minimalistic-potato/)
 ===================
 
-Made with love for Ludum Dare 26.
+Made with love for Ludum Dare 26. Grab dem builds at http://ci.zachlatta.com/job/minimalistic-potato/
 
 ![Screenshot](http://www.ludumdare.com/compo/wp-content/compo2/233892/18900-shot1.png)
 
