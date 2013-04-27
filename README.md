@@ -5,6 +5,7 @@ Made with love for Ludum Dare 26. Grab the latest builds [here](http://ci.zachla
 
 [![Screenshot](http://www.ludumdare.com/compo/wp-content/compo2/233892/18900-shot1.png)](http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=18900)
 
+
 The Story
 ---------
 
@@ -18,11 +19,15 @@ stuck in this dystopia. And only you can guide him. Only you can teach him to po
 
 ![Spudnik](http://i.imgur.com/yx7BV8F.png)
 
+
 Links
 -----
 [Submission page](http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=18900)
+
 [Google Play](https://play.google.com/store/apps/details?id=com.zachlatta.minimalistic_potato.android)
+
 [Continous Integration](http://ci.zachlatta.com/job/minimalistic-potato/)
+
 
 Contributing
 ------------
