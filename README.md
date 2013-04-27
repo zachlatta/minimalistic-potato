@@ -3,7 +3,7 @@ Minimalistic Potato [![Build Status](http://zachlatta.com:8080/job/minimalistic-
 
 Made with love for Ludum Dare 26. Grab the latest builds [here](http://ci.zachlatta.com/job/minimalistic-potato/).
 
-![Screenshot](http://www.ludumdare.com/compo/wp-content/compo2/233892/18900-shot1.png)
+[![Screenshot](http://www.ludumdare.com/compo/wp-content/compo2/233892/18900-shot1.png)](http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=18900)
 
 The Story
 ---------
@@ -17,6 +17,12 @@ out there better than this. That there is a world filled with color, with hope, 
 stuck in this dystopia. And only you can guide him. Only you can teach him to potate.
 
 ![Spudnik](http://i.imgur.com/yx7BV8F.png)
+
+Links
+-----
+[Submission page](http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=18900)
+[Google Play](https://play.google.com/store/apps/details?id=com.zachlatta.minimalistic_potato.android)
+[Continous Integration](http://ci.zachlatta.com/job/minimalistic-potato/)
 
 Contributing
 ------------
