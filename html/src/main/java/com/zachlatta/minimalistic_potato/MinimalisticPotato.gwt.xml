@@ -1,0 +1,12 @@
+<module rename-to='minimalistic-potato'>
+  <inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
+
+  <source path='core'/>
+  <source path='html'/>
+
+  <public path="resources" />
+
+  <entry-point class='com.zachlatta.minimalistic_potato.html.MinimalisticPotatoHtml'/>
+  <set-configuration-property name="gdx.assetpath" value="${asset.input.dir},desktop/assets,../desktop/assets,../../../../desktop/assets/" />
+  <set-configuration-property name="gdx.assetoutputpath" value="${asset.output.dir},minimalistic-potato-1.0-SNAPSHOT,src/main/webapp,./" />
+</module>
