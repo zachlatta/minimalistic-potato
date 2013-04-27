@@ -66,11 +66,44 @@ stuck in this dystopia. And only you can guide him. Only you can teach him to po
 <pre><code>git clone https://github.com/zachlatta/minimalistic-potato
 </code></pre>
 
-<p>Once you have it cloned, you can run the <code>-Pdesktop package</code> target to compile and package the game for desktops. If you
-want to compile and package it for Android, just run <code>-Pandroid package</code>. Just make sure you have your <code>ANDROID_HOME</code>
-environment variable set to the path to your Android SDK. Also, you'll want at least Android SDK version 17 downloaded.</p>
+<h3>Desktop</h3>
 
-<p>HTML exporting is still in the works.</p>
+<p>Run the <code>-Pdesktop package</code> goal to compile and package the game for desktops.</p>
+
+<pre><code>mvn -Pdesktop package
+</code></pre>
+
+<p>It will create a file called <code>minimalistic-potato-1.0-SNAPSHOT-jar-with-dependencies.jar</code> in the <code>desktop/target</code> folder.
+It contains all of the necessary dependencies, the assets, and a manifest file specifying the main class. You can run
+this file via:</p>
+
+<pre><code>java -jar minimalistic-potato-1.0-SNAPSHOT-jar-with-dependencies.jar
+</code></pre>
+
+<h3>Android</h3>
+
+<p>To create an unsigned APK for Android run the <code>-Pandroid package</code> goal.</p>
+
+<pre><code>mvn -Pandroid package
+</code></pre>
+
+<p>This will create a file called minimalistic-potato-android-1.0-SNAPSHOT.apk in the <code>android/target</code> folder. To install
+the APK to a connected device or emulator, run the <code>-Pandroid install</code> goal.</p>
+
+<pre><code>mvn -Pandroid install
+</code></pre>
+
+<h3>HTML5</h3>
+
+<p>To compile the project to HTML5, run the <code>-Phtml package</code> goal.</p>
+
+<pre><code>mvn -Phtml package
+</code></pre>
+
+<p>The end result is located in the <code>html/target</code> folder. You can either use the <code>.war</code> file that was generated and deploy
+that to Jetty/Tomcat, or copy the contents of the <code>html/target/minimalistic-potato-html-1.0-SNAPSHOT</code> folder to a
+location on a web server. Watch out, if just try to open <code>MinimalisticPotato.html</code> with a web browser on your computer,
+you're going to get a Javascript error (at least on Chrome).</p>
       </section>
     </div>
 
