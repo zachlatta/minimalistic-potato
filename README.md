@@ -1,4 +1,4 @@
-Minimalistic Potato [![Build Status](http://zachlatta.com:8080/job/minimalistic-potato/badge/icon)](http://zachlatta.com:8080/job/minimalistic-potato/)
+Minimalistic Potato [![Build Status](http://zachlatta.com:8080/job/minimalistic-potato/badge/icon)](http://ci.zachlatta.com/job/minimalistic-potato/)
 ===================
 
 Made with love for Ludum Dare 26.
@@ -19,7 +19,7 @@ Contributing
 
 Potatoes gonna potate. Help me make Spudnik potate harder than the rest.
 
-[![Potatoes Gonna Potate](http://www.ludumdare.com/compo/wp-content/compo2/233892/18900-shot0.png)]
+![Potatoes Gonna Potate](http://www.ludumdare.com/compo/wp-content/compo2/233892/18900-shot0.png)
 
 The project is set up with Maven, which will make getting started super easy. Just clone the repository to get started!
 
