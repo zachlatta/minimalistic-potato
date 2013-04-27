@@ -3,6 +3,8 @@ Minimalistic Potato [![Build Status](http://zachlatta.com:8080/job/minimalistic-
 
 Made with love for Ludum Dare 26.
 
+![Screenshot](http://www.ludumdare.com/compo/wp-content/compo2/233892/18900-shot1.png)
+
 The Story
 ---------
 
