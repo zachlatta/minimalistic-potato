@@ -16,6 +16,8 @@ stopped, he freezes in fear, lost. But with that fear comes the tiniest sliver o
 out there better than this. That there is a world filled with color, with hope, and with triumph. But for now he is
 stuck in this dystopia. And only you can guide him. Only you can teach him to potate.
 
+![Spudnik](http://i.imgur.com/yx7BV8F.png)
+
 Contributing
 ------------
 
