@@ -5,18 +5,18 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.zachlatta.minimalistic_potato</groupId>
-    <artifactId>minimalistic-potato</artifactId>
+    <artifactId>minimalistic_potato</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>minimalistic-potato-ios</artifactId>
+  <artifactId>minimalistic_potato-ios</artifactId>
   <packaging>dll</packaging>
   <name>MinimalisticPotato iOS</name>
 
   <dependencies>
     <dependency>
       <groupId>com.zachlatta.minimalistic_potato</groupId>
-      <artifactId>minimalistic-potato-core</artifactId>
+      <artifactId>minimalistic_potato-core</artifactId>
       <version>${project.version}</version>
     </dependency>
 

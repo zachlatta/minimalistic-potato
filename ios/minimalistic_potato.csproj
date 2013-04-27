@@ -64,8 +64,8 @@
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
     <Reference Include="OpenTK" />
-    <Reference Include="minimalistic-potato-ios">
-      <HintPath>bin\minimalistic-potato-ios.dll</HintPath>
+    <Reference Include="minimalistic_potato-ios">
+      <HintPath>bin\minimalistic_potato-ios.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Core">
       <HintPath>bin\IKVM.OpenJDK.Core.dll</HintPath>

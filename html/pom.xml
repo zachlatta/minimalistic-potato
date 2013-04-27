@@ -4,17 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.zachlatta.minimalistic_potato</groupId>
-		<artifactId>minimalistic-potato</artifactId>
+		<artifactId>minimalistic_potato</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>minimalistic-potato-html</artifactId>
+	<artifactId>minimalistic_potato-html</artifactId>
 	<packaging>war</packaging>
 	<name>MinimalisticPotato HTML</name>
 
 	<properties>
 		<gwt.module>com.zachlatta.minimalistic_potato.MinimalisticPotato</gwt.module>
-		<gwt.name>minimalistic-potato</gwt.name>
+		<gwt.name>minimalistic_potato</gwt.name>
         <asset.input.dir>${project.basedir}/../desktop/assets</asset.input.dir>
         <asset.output.dir>${project.build.directory}/${project.build.finalName}</asset.output.dir>
 	</properties>
@@ -22,7 +22,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.zachlatta.minimalistic_potato</groupId>
-			<artifactId>minimalistic-potato-core</artifactId>
+			<artifactId>minimalistic_potato-core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 

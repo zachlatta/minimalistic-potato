@@ -9,7 +9,7 @@
 		<string>touch-icon-57x57.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.zachlatta.minimalistic_potato.minimalistic-potato</string>
+	<string>com.zachlatta.minimalistic_potato.minimalistic_potato</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>MinimumOSVersion</key>
