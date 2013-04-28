@@ -69,34 +69,6 @@ public class MinimalisticPotato implements ApplicationListener
 
         stage.act(Gdx.graphics.getDeltaTime());
         stage.draw();
-
-        if(MathUtils.random() > .5)
-        {
-            final Actor actor = new Potato();
-
-            actor.setX(MathUtils.random(stage.getWidth() - actor.getWidth()));
-            actor.setY(MathUtils.random(stage.getHeight() - actor.getHeight()));
-
-            actor.addListener(new InputListener()
-            {
-                public boolean touchDown(InputEvent event, float x, float y, int pointer, int button)
-                {
-                    return true;
-                }
-
-                public void touchUp(InputEvent event, float x, float y, int pointer, int button)
-                {
-                    MoveToAction action = new MoveToAction();
-                    action.setPosition(x + actor.getX() - actor.getWidth() / 2,
-                            y + actor.getY() - actor.getHeight() / 2);
-                    action.setDuration(1);
-                    action.setInterpolation(Interpolation.exp5);
-                    actor.addAction(action);
-                }
-            });
-
-            stage.addActor(actor);
-        }
     }
 
     @Override
