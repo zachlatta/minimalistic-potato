@@ -97,19 +97,6 @@ public class MinimalisticPotato implements ApplicationListener
 
             stage.addActor(actor);
         }
-
-        for (final Actor actor : stage.getActors())
-        {
-            if(actor.getActions().size == 0)
-            {
-                MoveToAction action = new MoveToAction();
-                action.setPosition(MathUtils.random(stage.getWidth() - actor.getWidth()),
-                        MathUtils.random(stage.getHeight() - actor.getHeight()));
-                action.setDuration(.5f);
-                action.setInterpolation(Interpolation.exp5);
-                actor.addAction(action);
-            }
-        }
     }
 
     @Override
