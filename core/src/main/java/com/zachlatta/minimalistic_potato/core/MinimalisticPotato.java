@@ -64,13 +64,14 @@ public class MinimalisticPotato implements ApplicationListener
     @Override
     public void render()
     {
-        Gdx.gl.glClearColor(255, 255, 255, 0);
+        Gdx.gl.glClearColor(MathUtils.randomBoolean() ? 1 : 0, MathUtils.randomBoolean() ? 1 : 0,
+                MathUtils.randomBoolean() ? 1 : 0, 0);
         Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 
         stage.act(Gdx.graphics.getDeltaTime());
         stage.draw();
 
-        if(MathUtils.random() > .5)
+        if(MathUtils.random() > .99)
         {
             final Actor actor = new Potato();
 
