@@ -40,38 +40,8 @@ The project is set up with Maven, which will make getting started super easy. Ju
 
     git clone https://github.com/zachlatta/minimalistic-potato
 
-### Desktop
+Once you have it cloned, you can run the `-Pdesktop package` target to compile and package the game for desktops. If you
+want to compile and package it for Android, just run `-Pandroid package`. Just make sure you have your `ANDROID_HOME`
+environment variable set to the path to your Android SDK. Also, you'll want at least Android SDK version 17 downloaded.
 
-Run the `-Pdesktop package` goal to compile and package the game for desktops.
-
-    mvn -Pdesktop package
-
-It will create a file called `minimalistic-potato-1.0-SNAPSHOT-jar-with-dependencies.jar` in the `desktop/target` folder.
-It contains all of the necessary dependencies, the assets, and a manifest file specifying the main class. You can run
-this file via:
-
-    java -jar minimalistic-potato-1.0-SNAPSHOT-jar-with-dependencies.jar
-    
-
-### Android
-
-To create an unsigned APK for Android run the `-Pandroid package` goal.
-
-    mvn -Pandroid package
-
-This will create a file called minimalistic-potato-android-1.0-SNAPSHOT.apk in the `android/target` folder. To install
-the APK to a connected device or emulator, run the `-Pandroid install` goal.
-
-    mvn -Pandroid install
-
-
-### HTML5
-
-To compile the project to HTML5, run the `-Phtml package` goal.
-
-    mvn -Phtml package
-
-The end result is located in the `html/target` folder. You can either use the `.war` file that was generated and deploy
-that to Jetty/Tomcat, or copy the contents of the `html/target/minimalistic-potato-html-1.0-SNAPSHOT` folder to a
-location on a web server. Watch out, if just try to open `MinimalisticPotato.html` with a web browser on your computer,
-you're going to get a Javascript error (at least on Chrome).
+HTML exporting is still in the works.
