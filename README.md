@@ -73,5 +73,7 @@ To compile the project to HTML5, run the `-Phtml package` goal.
 
 The end result is located in the `html/target` folder. You can either use the `.war` file that was generated and deploy
 that to Jetty/Tomcat, or copy the contents of the `html/target/minimalistic-potato-html-1.0-SNAPSHOT` folder to a
-location on a web server. Watch out, if just try to open `MinimalisticPotato.html` with a web browser on your computer,
+location on a web server. After you have the files on the web server, copy the generated `assets` folder (in root of
+project) to the folder you copied onto the web server. Watch out, if you just try to open `MinimalisticPotato.html`
+with a web browser on your computer,
 you're going to get a Javascript error (at least on Chrome).
