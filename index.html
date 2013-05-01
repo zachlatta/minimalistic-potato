@@ -37,13 +37,7 @@
 
 <h2>The Story</h2>
 
-<p>Minimalistic Potato tells the heartbreaking story of Spudnik, a lost potato. Spudnik is stuck in a dystopia of white.
-An insipid plain of nothing. A place that lacks color, emotion, and all that is interesting. But when it seems like all
-is lost, an external force (your finger/mouse) flings across the void! It takes a second, but he slowly follows your
-finger with curiosity. Pixel after pixel. Movement after movement. And when Spudnik reaches where the external force
-stopped, he freezes in fear, lost. But with that fear comes the tiniest sliver of hope. Hope that there is something
-out there better than this. That there is a world filled with color, with hope, and with triumph. But for now he is
-stuck in this dystopia. And only you can guide him. Only you can teach him to potate.</p>
+<p>Minimalistic Potato tells the heartbreaking story of Spudnik, a potato who couldn't. I like to think of Minimalistic Potato as a reflection on the ephemerality of the human condition. Interpret it how you wish though. Potatoes gonna potate.</p>
 
 <p><img src="http://i.imgur.com/yx7BV8F.png" alt="Spudnik"></p>
 
@@ -73,9 +67,7 @@ stuck in this dystopia. And only you can guide him. Only you can teach him to po
 <pre><code>mvn -Pdesktop package
 </code></pre>
 
-<p>It will create a file called <code>minimalistic-potato-1.0-SNAPSHOT-jar-with-dependencies.jar</code> in the <code>desktop/target</code> folder.
-It contains all of the necessary dependencies, the assets, and a manifest file specifying the main class. You can run
-this file via:</p>
+<p>It will create a file called <code>minimalistic-potato-1.0-SNAPSHOT-jar-with-dependencies.jar</code> in the <code>desktop/target</code> folder. It contains all of the necessary dependencies, the assets, and a manifest file specifying the main class. You can run this file via:</p>
 
 <pre><code>java -jar minimalistic-potato-1.0-SNAPSHOT-jar-with-dependencies.jar
 </code></pre>
@@ -87,8 +79,7 @@ this file via:</p>
 <pre><code>mvn -Pandroid package
 </code></pre>
 
-<p>This will create a file called minimalistic-potato-android-1.0-SNAPSHOT.apk in the <code>android/target</code> folder. To install
-the APK to a connected device or emulator, run the <code>-Pandroid install</code> goal.</p>
+<p>This will create a file called minimalistic-potato-android-1.0-SNAPSHOT.apk in the <code>android/target</code> folder. To install the APK to a connected device or emulator, run the <code>-Pandroid install</code> goal.</p>
 
 <pre><code>mvn -Pandroid install
 </code></pre>
@@ -100,10 +91,7 @@ the APK to a connected device or emulator, run the <code>-Pandroid install</code
 <pre><code>mvn -Phtml package
 </code></pre>
 
-<p>The end result is located in the <code>html/target</code> folder. You can either use the <code>.war</code> file that was generated and deploy
-that to Jetty/Tomcat, or copy the contents of the <code>html/target/minimalistic-potato-html-1.0-SNAPSHOT</code> folder to a
-location on a web server. Watch out, if just try to open <code>MinimalisticPotato.html</code> with a web browser on your computer,
-you're going to get a Javascript error (at least on Chrome).</p>
+<p>The end result is located in the <code>html/target</code> folder. You can either use the <code>.war</code> file that was generated and deploy that to Jetty/Tomcat, or copy the contents of the <code>html/target/minimalistic-potato-html-1.0-SNAPSHOT</code> folder to a location on a web server. After you have the files on the web server, copy the generated <code>assets</code> folder (in root of project) to the folder you copied onto the web server. Watch out, if you just try to open <code>MinimalisticPotato.html</code> with a web browser on your computer, you're going to get a Javascript error (at least on Chrome).</p>
       </section>
     </div>
 
