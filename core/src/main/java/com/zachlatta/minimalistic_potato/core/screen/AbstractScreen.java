@@ -12,7 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
  */
 public abstract class AbstractScreen implements Screen
 {
-    private static final boolean KEEP_ASPECT_RATIO = true;
+    private static final boolean STRETCH = false;
 
     protected Stage stage;
 
@@ -35,7 +35,7 @@ public abstract class AbstractScreen implements Screen
     @Override
     public void resize(int width, int height)
     {
-        stage.setViewport(width, height, KEEP_ASPECT_RATIO);
+        stage.setViewport(width, height, STRETCH);
     }
 
     @Override
