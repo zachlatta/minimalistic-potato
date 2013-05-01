@@ -12,7 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
  */
 public abstract class AbstractScreen implements Screen
 {
-    private static final boolean KEEP_ASPECT_RATIO = false;
+    private static final boolean KEEP_ASPECT_RATIO = true;
 
     protected Stage stage;
 
