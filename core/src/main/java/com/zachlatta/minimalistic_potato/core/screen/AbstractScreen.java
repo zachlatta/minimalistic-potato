@@ -27,7 +27,6 @@ public abstract class AbstractScreen implements Screen
     {
         Gdx.gl.glClearColor(255, 255, 255, 0);
         Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
-
         stage.act(delta);
         stage.draw();
     }

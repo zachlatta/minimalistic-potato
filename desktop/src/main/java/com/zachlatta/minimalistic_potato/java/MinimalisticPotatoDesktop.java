@@ -7,11 +7,11 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 
 public class MinimalisticPotatoDesktop
 {
-	public static void main(String[] args)
+    public static void main(String[] args)
     {
-		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		config.useGL20 = true;
+        LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+        config.useGL20 = true;
         config.title = "Minimalistic Potato";
-		new LwjglApplication(new MinimalisticPotato(), config);
-	}
+        new LwjglApplication(new MinimalisticPotato(), config);
+    }
 }

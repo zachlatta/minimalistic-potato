@@ -28,25 +28,22 @@ public class GameplayScreen extends AbstractScreen
         // Center spudnik
         spudnik.setX(stage.getWidth() / 2 - spudnik.getWidth() / 2);
         spudnik.setY(stage.getHeight() / 2 - spudnik.getHeight() / 2);
-
         spudnik.addListener(new InputListener()
         {
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button)
             {
                 return true;
             }
-
             public void touchUp(InputEvent event, float x, float y, int pointer, int button)
             {
                 MoveToAction action = new MoveToAction();
                 action.setPosition(x + spudnik.getX() - spudnik.getWidth() / 2,
-                        y + spudnik.getY() - spudnik.getHeight() / 2);
+                                   y + spudnik.getY() - spudnik.getHeight() / 2);
                 action.setDuration(1);
                 action.setInterpolation(Interpolation.exp5);
                 spudnik.addAction(action);
             }
         });
-
         stage.addActor(spudnik);
     }
 }

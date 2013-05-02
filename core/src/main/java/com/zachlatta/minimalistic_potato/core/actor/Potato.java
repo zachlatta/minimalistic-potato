@@ -20,9 +20,7 @@ public class Potato extends Actor
     public Potato()
     {
         setName("potato");
-
         texture = new Texture(Gdx.files.internal("potato.png"));
-
         setWidth(texture.getWidth());
         setHeight(texture.getHeight());
     }
