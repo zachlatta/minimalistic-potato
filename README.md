@@ -1,7 +1,7 @@
-Minimalistic Potato [![Build Status](http://zachlatta.com:8080/job/minimalistic-potato/badge/icon)](http://ci.zachlatta.com/job/minimalistic-potato/)
+Minimalistic Potato
 ===================
 
-Made with love for Ludum Dare 26. Grab the latest builds [here](http://ci.zachlatta.com/job/minimalistic-potato/).
+Made with love for Ludum Dare 26.
 
 [![Screenshot](http://i.imgur.com/xmOty5q.png)](http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=18900)
 
@@ -19,8 +19,6 @@ Links
 [Submission page](http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=18900)
 
 [Google Play](https://play.google.com/store/apps/details?id=com.zachlatta.minimalistic_potato.android)
-
-[Continous Integration](http://ci.zachlatta.com/job/minimalistic-potato/)
 
 
 Contributing
